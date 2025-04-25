@@ -21,7 +21,7 @@ namespace HomeWork13
             {
                 Order order = JsonSerializer.Deserialize<Order>("orders.json");
             }
-            DisplayOrders(List < Order > orders);
+            DisplayOrders(orders);
 
 
             List<Order> orderss = new List<Order>
